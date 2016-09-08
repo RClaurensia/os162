@@ -1,0 +1,4 @@
+#claurensia_richa_sinaga
+create file, folder, remove file, move file, clone repository, git status, git add, git commit, git pull, git push. 
+Clone repository -> git clone "repository"
+Clone existing repository -> git clone --no-checkout "repository" os162/os162.tmp
