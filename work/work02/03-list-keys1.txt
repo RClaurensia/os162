@@ -1,0 +1,6 @@
+/home/fasilkom/mahasiswa/c/claurensia.richa/.gnupg/pubring.gpg
+--------------------------------------------------------------
+pub   4096R/F6759AE6 2016-09-22 [expires: 2017-03-21]
+uid                  claurensia richa sinaga (studying OS super dooper easy!) <claurensia.richa@ui.ac.id>
+sub   4096R/0452FE2C 2016-09-22 [expires: 2017-03-21]
+

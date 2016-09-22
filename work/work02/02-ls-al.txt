@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x 2 claurensia.richa StafCS 4096 Sep 22 18:27 .
+drwxr-xr-x 3 claurensia.richa StafCS 4096 Sep 19 23:13 ..
+-rw-r--r-- 1 claurensia.richa StafCS 1621 Sep 22 18:25 00-toc.txt
+-rw-r--r-- 1 claurensia.richa StafCS 3158 Sep 22 18:26 01-public-osteam.txt
+-rw-r--r-- 1 claurensia.richa StafCS    0 Sep 22 18:27 02-ls-al.txt
