@@ -21,18 +21,19 @@
 # Registers:
 
 # File marks:
-'0  4  9  ~/work/work03/hello.c
-'1  2  10  ~/work/work03/myawasomescript.sh
-'2  1  16  ~/work/work03/lab03.txt
-'3  1  0  ~/week01/what-time-script.sh
-'4  2  36  ~/week01/what-time-script.sh
-'5  1  0  ~/week01/laporan.txt
-'6  4  5  ~/os162/week01/what-time-script.sh
-'7  5  80  ~/os162/week01/laporan.txt
-'8  4  5  ~/week01/what-time-script.sh
-'9  4  80  ~/week01/laporan.txt
+'0  1  0  ~/os162/SandBox/testCreateFile
+'1  4  9  ~/work/work03/hello.c
+'2  2  10  ~/work/work03/myawasomescript.sh
+'3  1  16  ~/work/work03/lab03.txt
+'4  1  0  ~/week01/what-time-script.sh
+'5  2  36  ~/week01/what-time-script.sh
+'6  1  0  ~/week01/laporan.txt
+'7  4  5  ~/os162/week01/what-time-script.sh
+'8  5  80  ~/os162/week01/laporan.txt
+'9  4  5  ~/week01/what-time-script.sh
 
 # Jumplist (newest first):
+-'  1  0  ~/os162/SandBox/testCreateFile
 -'  4  9  ~/work/work03/hello.c
 -'  1  0  ~/work/work03/hello.c
 -'  2  10  ~/work/work03/myawasomescript.sh
@@ -130,10 +131,12 @@
 -'  4  5  ~/os162/week01/what-time-script.sh
 -'  1  0  ~/os162/week01/what-time-script.sh
 -'  5  80  ~/os162/week01/laporan.txt
--'  1  0  ~/os162/week01/laporan.txt
--'  4  80  ~/week01/laporan.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/os162/SandBox/testCreateFile
+	"	1	0
+	^	1	0
 
 > ~/work/work03/hello.c
 	"	4	9
