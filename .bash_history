@@ -467,3 +467,97 @@ cd work/work02
 ls -al
 ls -al | tee 02-ls-al.txt
 gpg --gen-key
+cd work/work02
+gpg --gen-key
+gpg --list-keys | tee 03-list-keys1.txt
+gpg --import 01-public-osteam.txt
+cd work/work02
+gpg --list-keys | tee 04-list-keys2.txt
+gpg --export --armor > 05-mypublickey1.txt
+cp 05-mypublickey1.txt ~/os162/week00/mypublickey1.txt
+cd ..
+cd ..
+ls -al
+cd work/work02
+cp 05-mypublickey1.txt ~/week00/mypublickey1.txt
+sha1sum * > SHA1SUM
+sha1sum -c SHA1SUM
+gpg --sign --armor --detach SHA1SUM
+gpg --verify SHA1SUM.asc
+cd ..
+tar cvfj work02.tbj work02/
+gpg --output work02.tbj.gpg --encrypt --recipient OSTEAM --recipient claurensia.richa@ui.ac.id work02.tbj
+ls -al
+gpg work02.tbj.gpg
+cp work02.tbj.gpg ~/week02/work02.tbj.gpg
+cd ../week02
+rm dummy
+git add .
+git status
+cd ..
+git add .
+git status
+git commit -m "task week02"
+git pull
+git push
+ls
+cd work
+mkdir work03
+cd work03
+vi lab03.txt
+nano lab03.txt
+vi myawasomescript.sh
+chmod 755 myawasomescript.sh
+./myawasomescript.sh lab03.txt
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+nano myawasomescript.sh
+./myawasomescript.sh lab03.txt 
+./myawasomescript.sh lab03.txt > output.txt
+slear
+clear
+vi hello.c
+gcc hello.c -o hello
+./hello
+nano hello.c
+gcc hello.c -o hello
+nano hello.c
+gcc hello.c -o hello
+./hello
+nano hello.c
+gcc hello.c -o hello
+./hello
+nano hello.c
+gcc hello.c -o hello
+./hello
+sha1sum * > SHA1SUM
+sha1sum -c SHA1SUM
+gpg --sign --armor --detach SHA1SUM
+gpg --verify SHA1SUM.asc
+cd ..
+lear
+clear
+tar cvfj work03.tbj work03/
+gpg --encrypt --recipient OSTEAM --recipient claurensia.richa@ui.ac.id
